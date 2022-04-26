@@ -1,0 +1,2 @@
+# ejercicioIndividual
+Ejericico Digital House
