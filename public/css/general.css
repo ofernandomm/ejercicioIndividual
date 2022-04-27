@@ -64,6 +64,7 @@ h3{
 
 
 main section div article div{
+  width: auto;
   background-color: white;
   position: relative;
   padding: 15px;
