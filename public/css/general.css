@@ -1,9 +1,14 @@
+
+/* Reglas del documento */ 
+
 html,
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #ebebeb;
   font-size: 12px;
 }
+
+/* Reglas del header */ 
 
 .logo {
   width: 50%;
@@ -19,18 +24,59 @@ header {
     background-color: #EAC926;
 }
 
+/* Reglas de secciones */ 
+
+main{
+  width: 90%;
+  margin: 0 auto;
+}
+
 img {
     max-width: 100%;
   }
 
 h3{
-  font-size: 24px;}
+  font-size: 24px;
+  text-align: center;
+  padding-top: 10px;
+  color: #666;
+}
+
+/* Reglas de datos del producto */ 
 
 .precios{
   font-size: 18px;}
 
-.descuentos, .descripcion {
-  font-size: 16px;}
+.descuentos{
+  font-size: 16px;
+  color:#39b54a;
+}
+
+.descripcion{
+  font-size: 16px;
+  color: #666;
+} 
+
+
+main section div{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 15px;
+  background-color: white;
+}
+
+.cajaCaracteristicas{
+  border-top: solid #ebebeb 1px;
+}
+
+.fa-truck{
+  color: green;
+  border: solid green 1px;
+  background-color: white;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 50%;
+}
 
   
 /* Reglas del footer */ 
