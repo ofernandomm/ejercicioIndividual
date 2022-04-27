@@ -1,0 +1,11 @@
+@media (min-width: 1200px) {
+    main section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main section div{
+        width: 25%;
+        padding: 16px;
+    }
+}

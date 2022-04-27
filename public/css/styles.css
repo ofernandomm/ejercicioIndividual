@@ -4,6 +4,7 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  padding-bottom: 15px;
 }
 
 .menu-hamburguesa i {
@@ -12,4 +13,8 @@
   padding: 10px;
   border-radius: 20%;
   margin: 5px;
+}
+
+.menu-hamburguesa{
+  padding-top: 10px;
 }

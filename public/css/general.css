@@ -14,6 +14,11 @@ body {
   width: 50%;
 }
 
+.barraBusqueda{
+  width: 50%;
+  text-align: center;
+}
+
 nav {
   display: none;
 }
@@ -66,15 +71,12 @@ main section div article div{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: var(--gap, 1rem);
+  gap: 3%;
 }
 
 article{
   margin: 15px 0px;
-}
-
-.cajaCaracteristicas{
-  border-top: solid #ebebeb 1px;
+  background-color: white;
 }
 
 main section article i{
