@@ -23,3 +23,34 @@ img {
     max-width: 100%;
   }
 
+h3{
+  font-size: 24px;}
+
+.precios{
+  font-size: 18px;}
+
+.descuentos, .descripcion {
+  font-size: 16px;}
+
+footer {
+  background-color: white;
+}
+
+footer .fas {
+  color: #1259c3;
+}
+
+footer section p {
+  margin-top: 5px;
+}
+
+footer i {
+  font-size: 2em;
+  margin-bottom: 10px;
+  transition: 475ms;
+}
+
+.texto-centrado{
+  text-align: center;
+}
+
