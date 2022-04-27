@@ -1,0 +1,15 @@
+html,
+body {
+  font-family: 'Roboto',
+    sans-serif;
+  background-color: #ebebeb;
+  font-size: 12px;
+}
+
+.logo {
+  width: 50%;
+}
+
+nav {
+  display: none;
+}
