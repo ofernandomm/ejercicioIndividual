@@ -32,25 +32,45 @@ h3{
 .descuentos, .descripcion {
   font-size: 16px;}
 
+  
+/* Reglas del footer */ 
+
 footer {
   background-color: white;
+  color:#666;
+  padding-top: 30px;
+}
+
+footer section {
+  padding: 10px;
 }
 
 footer .fas {
   color: #1259c3;
 }
 
+footer section div {
+  margin-bottom: 30px;
+}
+
 footer section p {
-  margin-top: 5px;
+  margin: 0 20%;
+}
+
+footer section h4 {
+  margin: 0px;
+  font-size: 18px;
 }
 
 footer i {
   font-size: 2em;
   margin-bottom: 10px;
-  transition: 475ms;
 }
 
 .texto-centrado{
   text-align: center;
 }
 
+.derechos {
+  padding-bottom: 20px;
+}
