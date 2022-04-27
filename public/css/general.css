@@ -58,27 +58,41 @@ h3{
 } 
 
 
-main section div{
-  padding-top: 20px;
-  padding-bottom: 10px;
-  margin: 15px;
+main section div article div{
   background-color: white;
+  position: relative;
+  padding: 15px;
+  border-top: solid #ebebeb 1px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gap, 1rem);
+}
+
+article{
+  margin: 15px 0px;
 }
 
 .cajaCaracteristicas{
   border-top: solid #ebebeb 1px;
 }
 
-.fa-truck{
+main section article i{
   color: green;
-  border: solid green 1px;
-  background-color: white;
+  display: block;
   font-size: 16px;
   padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #FFF;
   border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
 }
 
-  
+
 /* Reglas del footer */ 
 
 footer {
