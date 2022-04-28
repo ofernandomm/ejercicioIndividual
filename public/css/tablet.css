@@ -1,4 +1,59 @@
 @media (min-width: 480px){
+    
+    .top-nav-container {
+        display: flex;
+        max-width: 550px;
+        margin: 0 auto;
+      }
+    
+    .ocultar {
+    display: none;
+    }
+
+    .paddin-p{
+        padding-bottom: 20px;
+    }
+    
+    nav {
+        display:initial;
+        margin: auto;
+    }
+
+    .navBar{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 20px;
+        text-decoration:none;
+    }
+
+    .input-nav{
+        width: 80%;
+        font-size: 12px;
+        padding: 5px;
+        border: none;
+        border-right: solid 0.5px #4e4a4a;
+    }
+
+    .boton-nav{
+        font-size: 12px;
+        padding: 5px;
+        background-color: white;
+        border-style: none;
+        position: absolute;
+    }
+   
+    ul li {
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    a {
+        color:black; 
+        text-decoration:none;
+    }
+    
+
     main section{
         display: flex;
         flex-wrap: wrap;
@@ -7,5 +62,12 @@
     main section div{
         width: 50%;
         padding: 16px;
+    }
+
+    footer section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
     }
 }
