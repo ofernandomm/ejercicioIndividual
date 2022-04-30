@@ -1,0 +1,19 @@
+.form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 50%;
+}
+
+.inputlabelcontainer{
+    width: 90%;
+    display: block;
+}
