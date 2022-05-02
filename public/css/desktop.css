@@ -8,4 +8,30 @@
         width: 25%;
         padding: 16px;
     }
+
+    .descripcion{
+        font-size: 16px;
+        color: #666;
+        display: none;
+    }
+    
+    
+    @keyframes girar {
+        0% {
+        transform: rotate(-90deg);
+        }
+      }
+
+      article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+      }
+    
+      article:hover .descripcion{
+        display: initial;
+      }
+    
+      article:hover .fa-truck {
+        animation: girar 2s;
+      }
+
 }
